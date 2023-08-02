@@ -1,0 +1,35 @@
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust this value to center vertically on the screen */
+  }
+  
+  .welcome-message {
+    text-align: center;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+  }
+  
+  .navigation-buttons {
+    margin-top: 20px;
+  }
+  
+  .nav-button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .nav-button:hover {
+    background-color: #0056b3;
+  }
