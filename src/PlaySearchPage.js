@@ -3,12 +3,14 @@ import { Link } from 'react-router-dom';
 import SpotifyWebApi from 'spotify-web-api-js';
 import './PlaySearchPage.css';
 
-const PlaySearchPage = ({name, picture}) => {
+const PlaySearchPage = ({name, picture, accesstoken}) => {
+    // console.log(accesstoken + " is hereeee")
     const [searchQuery, setSearchQuery] = useState('');
     const [searchResults, setSearchResults] = useState([]);
     const [selectedTrack, setSelectedTrack] = useState(null);
 
     const spotifyApi = new SpotifyWebApi();
+    spotifyApi.setAccessToken(accesstoken);
 
     // search for track function
     const handleSearch = () => {
@@ -24,9 +26,13 @@ const PlaySearchPage = ({name, picture}) => {
     }
 
     // play track function
-    const playTrack = (trackUri) => {
-        setSelectedTrack(trackUri);
-        spotifyApi.play({uris: [trackUri]});
+    const playTrack = (trackuri) => {
+        // setSelectedTrack(trackuri);
+        // spotifyApi.play(selectedTrack);
+        spotifyApi.play({
+            uris: [trackuri],
+        });
+    
     }
 
     useEffect(() => {
