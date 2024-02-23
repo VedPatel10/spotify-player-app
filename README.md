@@ -1,9 +1,14 @@
 # Spotify Blue
-This webpage allows users to login to their Spotify account using OAuth, and display their account stats such as top listened to songs / artists. You can also use the dynamic search page to find songs to play, although you can only play songs if you login using a Spotify Premium account. 
+This webpage allows users to login to their Spotify account using OAuth.
 
-![capture1](https://github.com/VedPatel10/spotify-player-app/assets/86941088/bfce19a5-2f1d-4d21-994b-d4e052d458a7)
+## Displaying Account Stats
+Users are able to see their top listened to songs and artists on their Spotify account.
 
 ![capture3](https://github.com/VedPatel10/spotify-player-app/assets/86941088/14c7af9b-b6bc-4782-8d67-e7d18d917d33)
+
+
+## Searching / Playing Songs
+The dynamic search page allows users to find songs to play. 
 ![capture2](https://github.com/VedPatel10/spotify-player-app/assets/86941088/449d8f63-cf77-4b66-950b-3875aa541593)
 
 
