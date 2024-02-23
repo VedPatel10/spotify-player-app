@@ -1,6 +1,5 @@
-This application was my attempt to learn and implement React.js. This webpage allows users to login to their Spotify account 
-using OAuth, and display their account stats such as top listened to songs / artists. You can also use the dynamic search 
-page to find songs to play, although you can only play songs if you login using a Spotify Premium account. 
+# Spotify Blue
+This webpage allows users to login to their Spotify account using OAuth, and display their account stats such as top listened to songs / artists. You can also use the dynamic search page to find songs to play, although you can only play songs if you login using a Spotify Premium account. 
 
 
 
