@@ -1,70 +1,71 @@
 /* TopArtistsAndTracks.css */
 .top-artists-and-tracks {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-  }
-  
-  .grid {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-  }
-  
-  .item {
-    text-align: center;
-  }
-  
-  .item img {
-    width: 150px;
-    height: 150px;
-    border-radius: 20%;
-    object-fit: cover;
-    padding: 10px;
-    
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
 
-  /* Header.css */
+.grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.item {
+  text-align: center;
+}
+
+.item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20%;
+  object-fit: cover;
+  padding: 10px;
+
+}
+
 .header {
-    display:flex;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: #007bff;
-    color: #fff;
-    padding: 0px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100;
-  }
-  
-  .profile {
-    display: flex;
-  }
-  .profile-picture-corner {
-    width: 40px;
-    height: 40px;
-    border-radius: 20%;
-    margin-right: 15px;
-    margin-top: 4px;
-  }
-  
-  .display-name-corner {
-    font-weight: bold;
-    margin-right: 30px;
-  }
-  .buttons {
-    display: flex;
-    margin-right: 1505px;
-  }
-  .header-button {
-    margin: 5px;
-    padding: 10px 20px;
-    background-color: #000000;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-  }
-  
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 0px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile-picture-corner {
+  width: 40px;
+  height: 40px;
+  border-radius: 20%;
+  margin-right: 15px;
+  margin-top: 4px;
+}
+
+.display-name-corner {
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.buttons {
+  display: flex;
+  /* margin-right: 90vw; */
+}
+
+.header-button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
