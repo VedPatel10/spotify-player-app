@@ -4,21 +4,12 @@ This webpage allows users to login to their Spotify account using OAuth.
 ## Displaying Account Stats
 Users are able to see their top listened to songs and artists on their Spotify account.
 
-![capture3](https://github.com/VedPatel10/spotify-player-app/assets/86941088/14c7af9b-b6bc-4782-8d67-e7d18d917d33)
-
+![capture2](https://github.com/VedPatel10/spotify-player-app/assets/86941088/449d8f63-cf77-4b66-950b-3875aa541593)
 
 ## Searching / Playing Songs
 The dynamic search page allows users to find songs to play. 
-![capture2](https://github.com/VedPatel10/spotify-player-app/assets/86941088/449d8f63-cf77-4b66-950b-3875aa541593)
 
-
-
-
-
-
-
-
-
+![capture3](https://github.com/VedPatel10/spotify-player-app/assets/86941088/14c7af9b-b6bc-4782-8d67-e7d18d917d33)
 
 -------------------------------------------------------------------------
 
